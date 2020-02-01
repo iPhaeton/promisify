@@ -1,0 +1,21 @@
+{
+  "name": "promisify",
+  "version": "1.0.0",
+  "description": "promisification of any callback calling function",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --config jest.config.js"
+  },
+  "keywords": [
+    "promisify"
+  ],
+  "author": "Ilya Bohaslauchyk",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.7.5"
+  },
+  "files": [
+    "dist/**/*"
+  ]
+}
