@@ -2,13 +2,20 @@
   "name": "promisify",
   "version": "1.0.0",
   "description": "promisification of any callback calling function",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "test": "jest --config jest.config.js"
+    "test": "jest --config jest.config.js",
+    "prepare" : "npm run build",
+    "prepublishOnly" : "npm test",
+    "version" : "npm run format && git add -A src",
+    "postversion" : "git push && git push --tags"
   },
   "keywords": [
-    "promisify"
+    "promisify",
+    "promise",
+    "promisification"
   ],
   "author": "Ilya Bohaslauchyk",
   "license": "ISC",
