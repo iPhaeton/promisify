@@ -1,5 +1,5 @@
 {
-  "name": "promisify",
+  "name": "func-promisify",
   "version": "1.0.0",
   "description": "promisification of any callback calling function",
   "main": "dist/index.js",
