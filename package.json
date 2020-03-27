@@ -12,10 +12,15 @@
     "version" : "npm run format && git add -A src",
     "postversion" : "git push && git push --tags"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iPhaeton/promisify.git"
+  },
   "keywords": [
     "promisify",
     "promise",
-    "promisification"
+    "promisification",
+    "callback"
   ],
   "author": "Ilya Bohaslauchyk",
   "license": "ISC",
