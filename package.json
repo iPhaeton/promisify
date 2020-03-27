@@ -1,16 +1,16 @@
 {
   "name": "func-promisify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "promisification of any callback calling function",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "jest --config jest.config.js",
-    "prepare" : "npm run build",
-    "prepublishOnly" : "npm test",
-    "version" : "npm run format && git add -A src",
-    "postversion" : "git push && git push --tags"
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
